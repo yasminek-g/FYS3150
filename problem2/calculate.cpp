@@ -6,7 +6,7 @@ using namespace std;
 
 double evaluate(double x);
 
-pair< vector<double>, vector<double> > CalculateSolution(double start, double end, double step, pair<double, double> cond)
+pair< vector<double>, vector<double> > ExactSolution(double start, double end, double step, pair<double, double> cond)
 {
     //Defining vectors
     vector<double> x;

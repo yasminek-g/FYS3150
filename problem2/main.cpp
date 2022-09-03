@@ -14,7 +14,7 @@ int main()
     bound.first = 0;
     bound.second = 0;
 
-    pair< vector<double>, vector<double> > data = CalculateSolution(start, end, step, bound);
+    pair< vector<double>, vector<double> > data = ExactSolution(start, end, step, bound);
     WriteToFile("data.txt", data);
 
 }
